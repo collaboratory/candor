@@ -1,0 +1,28 @@
+{
+  "name": "@candor/server-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_PATH=./src node src",
+    "watch": "NODE_PATH=./src nodemon src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/runtime": "^7.4.5",
+    "@elastic/elasticsearch": "^7.1.0",
+    "@emitterware/app": "^0.1.0",
+    "@emitterware/bundler": "^0.1.0",
+    "@emitterware/http": "^0.1.2",
+    "knex": "^0.17.6",
+    "pg": "^7.11.0"
+  },
+  "dependencies": {
+    "@emitterware/router": "0.0.5",
+    "glob": "^7.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0"
+  }
+}
